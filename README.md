@@ -11,10 +11,15 @@ Query Capabilities: Enables users to execute predefined queries for insights suc
 Customization: Allows users to add new channels for data collection and migrate existing data to SQL for further analysis.
 
 **Technologies Used:**
+
 Python
+
 Google API Client Library
+
 MongoDB
+
 PostgreSQL
+
 Streamlit
 
 **How to Use:**
