@@ -208,10 +208,6 @@ def create_comment_table(selected_channel):
                 Comments_list.append(comment)
     df = pd.DataFrame(Comments_list)
 
-    from sqlalchemy import create_engine, String, Integer, DateTime, Text
-
-    engine = create_engine('postgresql://postgres:1005@localhost/youtube')
-
     dtype_mapping = {
             'video_id': String(20),
             'comment_text': Text,
